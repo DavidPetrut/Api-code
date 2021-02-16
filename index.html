@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+
+        <meta name="description" content="AJAX/PHP/CURL/JSON">
+        <meta charset="utf-8">
+	
+        <title>Project</title>
+
+    </head>
+
+    <body>
+
+        <select id="lat">
+            <option value="40.78343">latitude</option>
+        </select>
+
+        <select id="lng">
+            <option value="-73.96625">longitude</option>
+        </select>
+
+        <button id="BUTTON">START</button>
+
+        <br><br>
+
+        <div id="divResults">
+            
+            <table>
+
+                <tr>
+                    <td>countryCode: </td> 
+                    <td id="countryCode"></td>
+ 
+                </tr>
+
+                <tr>
+                    <td>countryName:  </td>
+                    <td id="countryName"></td>    
+
+                </tr>
+
+                <tr>
+                    <td>city:</td> 
+                    <td id="city"></td>    
+
+                </tr>
+
+                <tr>
+                    <td>name: </td>
+                    <td id="name"></td>    
+
+                </tr>
+
+            </table>
+
+        </div>
+
+        <script  src="libs/js/jquery.js"></script>
+        <script  src="libs/js/script.js"></script>
+
+    </body>
+
+</html>
+
